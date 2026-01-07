@@ -1,78 +1,341 @@
-<!DOCTYPE htmlcart-btn>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>DESSERTS SHOP></title>
+    <title>Desserts Menu</title>
+    <link rel="stylesheet" href="stylee.css" />
   </head>
   <body>
-    <div class="dessertt-cartte">
-      <h1><span class="highlight">Desserts</span></h1>
     <div class="container">
-          <div class="center">
-      <section class="cart-section">
-        <div class="dessert-cart">
-          <img src="special food.jpg" alt="food" />
-            <p class="dessert ward">waffle</p>
-              <h6 class="dessert-cart">chocolate cake waffle with berries</h6>
-                  <p class="dessert-price">$6.50</p>
+      <!-- LEFT SECTION -->
+      <section class="menu">
+        <h1>Desserts</h1>
 
-                  <button class="cart-btn">Add to cart</button>
+        <div class="cards">
+          <!-- Card -->
+          <div class="card" data-product="Waffle with Berries">
+            <img src="special food.jpg" />
+            <button
+              class="add-to-cart"
+              data-name="Waffle with Berries"
+              data-price="6.50"
+              data-category="Waffle"
+            >
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 21 20"
+                fill="currentColor"
+                style="vertical-align: middle; margin-right: 5px"
+              >
+                <path
+                  d="M6.583 18.75a1.25 1.25 0 100-2.5 1.25 1.25 0 000 2.5zM15.334 18.75a1.25 1.25 0 100-2.5 1.25 1.25 0 000 2.5zM3.446 1.41a.625.625 0 00-.613-.71H.417a.625.625 0 000 1.25h1.89l2.143 11.234c.083.427.46.746.896.746h10.417a.896.896 0 00.896-.746l1.25-6.562a.625.625 0 00-.613-.736H5.24l-.32-1.676a.625.625 0 00-.474-.55z"
+                />
+              </svg>
+              Add to Cart
+            </button>
+            <div class="quantity-controls" data-name="Waffle with Berries">
+              <button class="quantity-btn minus-btn">-</button>
+              <span class="quantity-display">1</span>
+              <button class="quantity-btn plus-btn">+</button>
+            </div>
+            <p class="category">Waffle</p>
+            <h3>Waffle with Berries</h3>
+            <span>$6.50</span>
           </div>
-        </section>
-      </div>
-   <div class="lightbox">
-        <section class="cartt-section">
-          <div class="dessert-cart">
-            <img src="special food.jpg" alt="food" />
-            <p class="dessert-item ward">waffle</p>
-            <h6 class="dessert-cartt">chocolate cake waffle with berries</h6>
-            <p class="dessert-pricee">$6.50</p>
 
-            <button class="cartt-btn">Add to cart</button>
-              </div>
-        </section>
-      </div>
-            <div class="center-box">
-        <section class="caart-sect">
-          <div class="desert-cart">
-            <img src="special food.jpg" alt="food" />
-              <p class="dessert-wardd">waffle</p>
-                <h6 class="dessert-ccart">chocolate cake waffle with berries</h6>
-                  <p class="ddessert-price">$6.50</p>
-                  <button class="caart-btn">Add to cart</button>
-                  </div>
-        </section>
-      </div>
-        <section class="cartte-section">
-       <div class="essert-cart">
-            <img src="special food.jpg" alt="food" />
-            <p class="product-name">waffle</p>
-            <h6 class="pro-function">chocolate cake waffle with berries</h6>
-            <p class="product-price">$6.50</p>
-            <button class="caartte-section">Add to cart</button>
-             </div>
-        </section>
-      <section class="coc-nat">
-          <div class="coc-product">
-            <img src="special food.jpg" alt="food" />
-            <p class="product-name">waffle</p>
-            <h6 class="pro-function">chocolate cake waffle with berries</h6>
-            <p class="product-price">$6.50</p>
-          <button class="coc-btn">Add to cart</button>
-           </div>
-        </section>
+          <div class="card" data-product="Vanilla Bean Crème Brûlée">
+            <img
+              src="https://images.unsplash.com/photo-1541592106381-b31e9677c0e5"
+            />
+            <button
+              class="add-to-cart"
+              data-name="Vanilla Bean Crème Brûlée"
+              data-price="7.00"
+              data-category="Crème Brûlée"
+            >
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 21 20"
+                fill="currentColor"
+                style="vertical-align: middle; margin-right: 5px"
+              >
+                <path
+                  d="M6.583 18.75a1.25 1.25 0 100-2.5 1.25 1.25 0 000 2.5zM15.334 18.75a1.25 1.25 0 100-2.5 1.25 1.25 0 000 2.5zM3.446 1.41a.625.625 0 00-.613-.71H.417a.625.625 0 000 1.25h1.89l2.143 11.234c.083.427.46.746.896.746h10.417a.896.896 0 00.896-.746l1.25-6.562a.625.625 0 00-.613-.736H5.24l-.32-1.676a.625.625 0 00-.474-.55z"
+                />
+              </svg>
+              Add to Cart
+            </button>
+            <div
+              class="quantity-controls"
+              data-name="Vanilla Bean Crème Brûlée"
+            >
+              <button class="quantity-btn minus-btn">-</button>
+              <span class="quantity-display">1</span>
+              <button class="quantity-btn plus-btn">+</button>
+            </div>
+            <p class="category">Crème Brûlée</p>
+            <h3>Vanilla Bean Crème Brûlée</h3>
+            <span>$7.00</span>
+          </div>
 
-         <div class="sp-product">
-      <section class="spp-pro">
-        <div class="dessert-cart">
-          <img src="special food.jpg" alt="food" />
-            <p class="dessert ward">waffle</p>
-              <h6 class="dessert-cart">chocolate cake waffle with berries</h6>
-                  <p class="dessert-price">$6.50</p>
+          <div class="card" data-product="Macaron Mix of Five">
+            <img src="rice.jpg" />
+            <button
+              class="add-to-cart"
+              data-name="Macaron Mix of Five"
+              data-price="8.00"
+              data-category="Macaron"
+            >
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 21 20"
+                fill="currentColor"
+                style="vertical-align: middle; margin-right: 5px"
+              >
+                <path
+                  d="M6.583 18.75a1.25 1.25 0 100-2.5 1.25 1.25 0 000 2.5zM15.334 18.75a1.25 1.25 0 100-2.5 1.25 1.25 0 000 2.5zM3.446 1.41a.625.625 0 00-.613-.71H.417a.625.625 0 000 1.25h1.89l2.143 11.234c.083.427.46.746.896.746h10.417a.896.896 0 00.896-.746l1.25-6.562a.625.625 0 00-.613-.736H5.24l-.32-1.676a.625.625 0 00-.474-.55z"
+                />
+              </svg>
+              Add to Cart
+            </button>
+            <div class="quantity-controls" data-name="Macaron Mix of Five">
+              <button class="quantity-btn minus-btn">-</button>
+              <span class="quantity-display">1</span>
+              <button class="quantity-btn plus-btn">+</button>
+            </div>
+            <p class="category">Macaron</p>
+            <h3>Macaron Mix of Five</h3>
+            <span>$8.00</span>
+          </div>
+
+          <div class="card" data-product="Classic Tiramisu">
+            <img src="Pistachio Baklava.jpg" />
+            <button
+              class="add-to-cart"
+              data-name="Classic Tiramisu"
+              data-price="5.50"
+              data-category="Tiramisu"
+            >
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 21 20"
+                fill="currentColor"
+                style="vertical-align: middle; margin-right: 5px"
+              >
+                <path
+                  d="M6.583 18.75a1.25 1.25 0 100-2.5 1.25 1.25 0 000 2.5zM15.334 18.75a1.25 1.25 0 100-2.5 1.25 1.25 0 000 2.5zM3.446 1.41a.625.625 0 00-.613-.71H.417a.625.625 0 000 1.25h1.89l2.143 11.234c.083.427.46.746.896.746h10.417a.896.896 0 00.896-.746l1.25-6.562a.625.625 0 00-.613-.736H5.24l-.32-1.676a.625.625 0 00-.474-.55z"
+                />
+              </svg>
+              Add to Cart
+            </button>
+            <div class="quantity-controls" data-name="Classic Tiramisu">
+              <button class="quantity-btn minus-btn">-</button>
+              <span class="quantity-display">1</span>
+              <button class="quantity-btn plus-btn">+</button>
+            </div>
+            <p class="category">Tiramisu</p>
+            <h3>Classic Tiramisu</h3>
+            <span>$5.50</span>
+          </div>
+
+          <div class="card" data-product="Pistachio Baklava">
+            <img src="Pistachio Baklava.jpg" />
+            <button
+              class="add-to-cart"
+              data-name="Pistachio Baklava"
+              data-price="4.00"
+              data-category="Baklava"
+            >
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 21 20"
+                fill="currentColor"
+                style="vertical-align: middle; margin-right: 5px"
+              >
+                <path
+                  d="M6.583 18.75a1.25 1.25 0 100-2.5 1.25 1.25 0 000 2.5zM15.334 18.75a1.25 1.25 0 100-2.5 1.25 1.25 0 000 2.5zM3.446 1.41a.625.625 0 00-.613-.71H.417a.625.625 0 000 1.25h1.89l2.143 11.234c.083.427.46.746.896.746h10.417a.896.896 0 00.896-.746l1.25-6.562a.625.625 0 00-.613-.736H5.24l-.32-1.676a.625.625 0 00-.474-.55z"
+                />
+              </svg>
+              Add to Cart
+            </button>
+            <div class="quantity-controls" data-name="Pistachio Baklava">
+              <button class="quantity-btn minus-btn">-</button>
+              <span class="quantity-display">1</span>
+              <button class="quantity-btn plus-btn">+</button>
+            </div>
+            <p class="category">Baklava</p>
+            <h3>Pistachio Baklava</h3>
+            <span>$4.00</span>
+          </div>
+
+          <div class="card" data-product="Lemon Meringue Pie">
+            <img src="Lemon Meringue Pie.jpg" />
+            <button
+              class="add-to-cart"
+              data-name="Lemon Meringue Pie"
+              data-price="5.00"
+              data-category="Pie"
+            >
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 21 20"
+                fill="currentColor"
+                style="vertical-align: middle; margin-right: 5px"
+              >
+                <path
+                  d="M6.583 18.75a1.25 1.25 0 100-2.5 1.25 1.25 0 000 2.5zM15.334 18.75a1.25 1.25 0 100-2.5 1.25 1.25 0 000 2.5zM3.446 1.41a.625.625 0 00-.613-.71H.417a.625.625 0 000 1.25h1.89l2.143 11.234c.083.427.46.746.896.746h10.417a.896.896 0 00.896-.746l1.25-6.562a.625.625 0 00-.613-.736H5.24l-.32-1.676a.625.625 0 00-.474-.55z"
+                />
+              </svg>
+              Add to Cart
+            </button>
+            <div class="quantity-controls" data-name="Lemon Meringue Pie">
+              <button class="quantity-btn minus-btn">-</button>
+              <span class="quantity-display">1</span>
+              <button class="quantity-btn plus-btn">+</button>
+            </div>
+            <p class="category">Pie</p>
+            <h3>Lemon Meringue Pie</h3>
+            <span>$5.00</span>
+          </div>
+
+          <div class="card" data-product="Red Velvet Cake">
+            <img src="Red Velvet Cake.jpg" />
+            <button
+              class="add-to-cart"
+              data-name="Red Velvet Cake"
+              data-price="4.50"
+              data-category="Cake"
+            >
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 21 20"
+                fill="currentColor"
+                style="vertical-align: middle; margin-right: 5px"
+              >
+                <path
+                  d="M6.583 18.75a1.25 1.25 0 100-2.5 1.25 1.25 0 000 2.5zM15.334 18.75a1.25 1.25 0 100-2.5 1.25 1.25 0 000 2.5zM3.446 1.41a.625.625 0 00-.613-.71H.417a.625.625 0 000 1.25h1.89l2.143 11.234c.083.427.46.746.896.746h10.417a.896.896 0 00.896-.746l1.25-6.562a.625.625 0 00-.613-.736H5.24l-.32-1.676a.625.625 0 00-.474-.55z"
+                />
+              </svg>
+              Add to Cart
+            </button>
+            <div class="quantity-controls" data-name="Red Velvet Cake">
+              <button class="quantity-btn minus-btn">-</button>
+              <span class="quantity-display">1</span>
+              <button class="quantity-btn plus-btn">+</button>
+            </div>
+            <p class="category">Cake</p>
+            <h3>Red Velvet Cake</h3>
+            <span>$4.50</span>
+          </div>
+
+          <div class="card" data-product="Salted Caramel Brownie">
+            <img src="Salted Caramel Brownie.jpg" />
+            <button
+              class="add-to-cart"
+              data-name="Salted Caramel Brownie"
+              data-price="5.50"
+              data-category="Brownie"
+            >
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 21 20"
+                fill="currentColor"
+                style="vertical-align: middle; margin-right: 5px"
+              >
+                <path
+                  d="M6.583 18.75a1.25 1.25 0 100-2.5 1.25 1.25 0 000 2.5zM15.334 18.75a1.25 1.25 0 100-2.5 1.25 1.25 0 000 2.5zM3.446 1.41a.625.625 0 00-.613-.71H.417a.625.625 0 000 1.25h1.89l2.143 11.234c.083.427.46.746.896.746h10.417a.896.896 0 00.896-.746l1.25-6.562a.625.625 0 00-.613-.736H5.24l-.32-1.676a.625.625 0 00-.474-.55z"
+                />
+              </svg>
+              Add to Cart
+            </button>
+            <div class="quantity-controls" data-name="Salted Caramel Brownie">
+              <button class="quantity-btn minus-btn">-</button>
+              <span class="quantity-display">1</span>
+              <button class="quantity-btn plus-btn">+</button>
+            </div>
+            <p class="category">Brownie</p>
+            <h3>Salted Caramel Brownie</h3>
+            <span>$5.50</span>
+          </div>
+
+          <div class="card" data-product="Vanilla Panna Cotta">
+            <img src="Vanilla Panna Cotta.jpg" />
+            <button
+              class="add-to-cart"
+              data-name="Vanilla Panna Cotta"
+              data-price="6.50"
+              data-category="Panna Cotta"
+            >
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 21 20"
+                fill="currentColor"
+                style="vertical-align: middle; margin-right: 5px"
+              >
+                <path
+                  d="M6.583 18.75a1.25 1.25 0 100-2.5 1.25 1.25 0 000 2.5zM15.334 18.75a1.25 1.25 0 100-2.5 1.25 1.25 0 000 2.5zM3.446 1.41a.625.625 0 00-.613-.71H.417a.625.625 0 000 1.25h1.89l2.143 11.234c.083.427.46.746.896.746h10.417a.896.896 0 00.896-.746l1.25-6.562a.625.625 0 00-.613-.736H5.24l-.32-1.676a.625.625 0 00-.474-.55z"
+                />
+              </svg>
+              Add to Cart
+            </button>
+            <div class="quantity-controls" data-name="Vanilla Panna Cotta">
+              <button class="quantity-btn minus-btn">-</button>
+              <span class="quantity-display">1</span>
+              <button class="quantity-btn plus-btn">+</button>
+            </div>
+            <p class="category">Panna Cotta</p>
+            <h3>Vanilla Panna Cotta</h3>
+            <span>$6.50</span>
           </div>
         </div>
-          </section>
+      </section>
+
+      <!-- RIGHT CART -->
+      <aside class="cart">
+        <h2>Your Cart (<span id="cart-count">0</span>)</h2>
+        <div class="empty-cart" id="empty-cart">
+          <p>Your added items will appear here</p>
+        </div>
+        <div class="cart-items" id="cart-items"></div>
+        <div class="cart-footer" id="cart-footer" style="display: none">
+          <div class="order-total">
+            <span>Order Total</span>
+            <span class="total-price" id="total-price">$0.00</span>
+          </div>
+          <button class="confirm-order-btn" id="confirm-order-btn">
+            Confirm Order
+          </button>
+        </div>
+      </aside>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal" id="order-modal">
+      <div class="modal-content">
+        <div class="check-icon">✓</div>
+        <h2>Order Confirmed</h2>
+        <p>We hope you enjoy your food!</p>
+        <div class="modal-items" id="modal-items"></div>
+        <div class="modal-total">
+          <span>Order Total</span>
+          <span class="modal-total-price" id="modal-total-price">$0.00</span>
+        </div>
+        <button class="start-new-order-btn" id="start-new-order-btn">
+          Start New Order
+        </button>
+      </div>
+    </div>
+
+    <script src="style.js"></script>
   </body>
 </html>
