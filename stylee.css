@@ -46,9 +46,9 @@ body {
   margin: 10px auto;
   display: block;
   padding: 9px;
-  border: 1px solid #f97316;
+  border: 1px solid #56473c;
   background: #fff;
-  color: #f97316;
+  color: #040303;
   border-radius: 20px;
   cursor: pointer;
 }
@@ -110,7 +110,7 @@ body {
 }
 
 .card span {
-  color: #f97316;
+  color: #c56161;
   font-weight: bold;
 }
 
